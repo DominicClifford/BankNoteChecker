@@ -8,6 +8,6 @@ public class Page_England extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.page__england);
+        setContentView(R.layout.page_england);
     }
 }
