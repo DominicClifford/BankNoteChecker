@@ -27,6 +27,13 @@
             android:label="@string/england"
             android:parentActivityName=".Page_Home">
         </activity>
+
+        <activity
+            android:name=".Page_Scotland"
+            android:label="@string/scotland"
+            android:parentActivityName=".Page_Home">
+        </activity>
+
     </application>
 
 </manifest>
