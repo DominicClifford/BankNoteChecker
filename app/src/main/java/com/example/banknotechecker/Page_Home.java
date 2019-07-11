@@ -17,16 +17,17 @@ public class Page_Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.page_home);
 
-        //Animation Preset
-        Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.image_animation);
-
         //Open England Page
         ImageView eng = findViewById(R.id.engButton);
-        eng.startAnimation(animation);
+
         eng.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
+                //set animation on click
+                Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.image_animation);
+                v.startAnimation(animation);
+                //open new activity on click
                 Intent pageEng = new Intent(Page_Home.this, Page_England.class);
                 startActivity(pageEng);
             }
@@ -34,10 +35,13 @@ public class Page_Home extends AppCompatActivity {
 
         //Open Scotland page
         ImageView scot = findViewById(R.id.scotButton);
-        scot.startAnimation(animation);
         scot.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //set animation on click
+                Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.image_animation);
+                v.startAnimation(animation);
+                //open new activity on click
                 Intent pageScot = new Intent(Page_Home.this, Page_Scotland.class);
                 startActivity(pageScot);
             }

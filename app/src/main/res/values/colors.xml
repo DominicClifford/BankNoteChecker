@@ -4,6 +4,7 @@
     <color name="colorPrimaryDark">#658D36</color>
 
     <color name="textColour">#000000</color>
+    <color name="background">#f0f0f2</color>
 
     <color name="dividingLine">#646464</color>
     <color name="colorAccent">#D81B60</color>
