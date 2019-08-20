@@ -19,9 +19,7 @@ public class Page_Home extends AppCompatActivity {
 
         //Open England Page when english button is clicked
         ImageView eng = findViewById(R.id.engButton);
-
         eng.setOnClickListener(new View.OnClickListener() {
-
             @Override
             public void onClick(View v) {
                 //set animation on click
