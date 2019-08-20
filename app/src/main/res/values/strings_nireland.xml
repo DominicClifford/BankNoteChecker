@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="nIreland">England</string>
+    <string name="nIreland">Northern Ireland</string>
     <string name="TitleNIre">Northern Irish Notes</string>
     <string name="WTDNIre">Select the denomination you wish to check</string>
 </resources>

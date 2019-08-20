@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Euro">Euro</string>
+    <string name="TitleEuro">European Notes</string>
+    <string name="WTDEuro">Select the denomination you wish to check</string>
+</resources>

@@ -36,6 +36,11 @@
             android:label="@string/nIreland"
             android:parentActivityName=".Page_Home">
         </activity>
+        <activity
+            android:name=".Page_Euro"
+            android:label="@string/Euro"
+            android:parentActivityName=".Page_Home">
+        </activity>
     </application>
 
 </manifest>
