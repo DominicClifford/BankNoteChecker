@@ -17,7 +17,7 @@ public class Page_Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.page_home);
 
-        //Open England Page
+        //Open England Page when english button is clicked
         ImageView eng = findViewById(R.id.engButton);
 
         eng.setOnClickListener(new View.OnClickListener() {
@@ -33,7 +33,7 @@ public class Page_Home extends AppCompatActivity {
             }
         });
 
-        //Open Scotland page
+        //Open Scotland page when scottish button is clicked
         ImageView scot = findViewById(R.id.scotButton);
         scot.setOnClickListener(new View.OnClickListener() {
             @Override
