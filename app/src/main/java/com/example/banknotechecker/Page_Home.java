@@ -47,6 +47,20 @@ public class Page_Home extends AppCompatActivity {
             }
         });
 
+        //Open Northern Ireland page when norther Ireland button is clicked
+        ImageView NIre = findViewById(R.id.nIrelandButton);
+        NIre.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //set animation on click
+                Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.image_animation);
+                v.startAnimation(animation);
+                //open new activity on click
+                Intent pageNIre = new Intent(Page_Home.this, Page_NIreland.class);
+                startActivity(pageNIre);
+            }
+        });
+
 
     }
 
