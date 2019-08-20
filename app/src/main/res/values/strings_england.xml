@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="england">England</string>
+    <string name="TitleEng">English Notes</string>
+    <string name="WTDEng">Select the denomination you wish to check</string>
 </resources>
