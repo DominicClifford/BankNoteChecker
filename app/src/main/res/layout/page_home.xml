@@ -11,78 +11,78 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <TextView
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="@string/TitleHome"
-            android:textAlignment="center"
-            android:textColor="@color/textColour"
-            android:textSize="50sp"
-            android:textStyle="bold" />
+            android:orientation="vertical"
+            android:gravity="center"
+            app:layout_constraintTop_toTopOf="parent">
 
-        <View
-            android:layout_width="wrap_content"
-            android:layout_height="1dp"
-            android:layout_marginHorizontal="50dp"
-            android:layout_marginTop="10dp"
-            android:background="@color/dividingLine"
-            tools:ignore="UnusedAttribute" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/TitleHome"
+                android:textAlignment="center"
+                android:textColor="@color/textColour"
+                android:textSize="50sp"
+                android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="@string/WTDHome"
-            android:textAlignment="center"
-            android:textColor="@color/textColour"
-            android:textSize="35sp"
-            android:textStyle="bold" />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginHorizontal="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/dividingLine"
+                tools:ignore="UnusedAttribute" />
 
-        <ImageView
-            android:id="@+id/engButton"
-            android:layout_width="354dp"
-            android:layout_height="165dp"
-            android:layout_marginTop="10dp"
-            android:layout_gravity="center"
-            android:src="@drawable/england_sterling"
-            android:contentDescription="@string/image" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/WTDHome"
+                android:textAlignment="center"
+                android:textColor="@color/textColour"
+                android:textSize="35sp"
+                android:textStyle="bold" />
 
-        <ImageView
-            android:id="@+id/scotButton"
-            android:layout_width="354dp"
-            android:layout_height="165dp"
-            android:layout_marginTop="10dp"
-            android:layout_gravity="center"
-            android:src="@drawable/scotland_sterling"
-            android:contentDescription="@string/image" />
+            <ImageView
+                android:id="@+id/engButton"
+                android:layout_width="354dp"
+                android:layout_height="165dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/england_sterling"
+                android:contentDescription="@string/image" />
 
-        <ImageView
-            android:id="@+id/nIrelandButton"
-            android:layout_width="354dp"
-            android:layout_height="165dp"
-            android:layout_marginTop="10dp"
-            android:layout_gravity="center"
-            android:src="@drawable/nireland_sterling"
-            android:contentDescription="@string/image" />
+            <ImageView
+                android:id="@+id/scotButton"
+                android:layout_width="354dp"
+                android:layout_height="165dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/scotland_sterling"
+                android:contentDescription="@string/image" />
 
-        <ImageView
-            android:id="@+id/euroButton"
-            android:layout_width="354dp"
-            android:layout_height="165dp"
-            android:layout_marginTop="10dp"
-            android:layout_gravity="center"
-            android:src="@drawable/euro"
-            android:contentDescription="@string/image" />
+            <ImageView
+                android:id="@+id/nIrelandButton"
+                android:layout_width="354dp"
+                android:layout_height="165dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/nireland_sterling"
+                android:contentDescription="@string/image" />
 
-    </LinearLayout>
+            <ImageView
+                android:id="@+id/euroButton"
+                android:layout_width="354dp"
+                android:layout_height="165dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/euro"
+                android:contentDescription="@string/image" />
+
+        </LinearLayout>
 
     </ScrollView>
 

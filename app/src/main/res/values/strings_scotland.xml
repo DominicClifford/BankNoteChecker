@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="scotland">Scotland</string>
+    <string name="TitleScot">Scottish Notes</string>
+    <string name="WTDScot">Select the denomination you wish to check</string>
 </resources>
