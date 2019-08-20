@@ -61,6 +61,20 @@ public class Page_Home extends AppCompatActivity {
             }
         });
 
+        //Opens Euro page when the Euro Button is clicked
+        ImageView Euro = findViewById(R.id.euroButton);
+        Euro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //set animation on click
+                Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.image_animation);
+                v.startAnimation(animation);
+                //open new activity on click
+                Intent pageEuro = new Intent(Page_Home.this, Page_Euro.class);
+                startActivity(pageEuro);
+            }
+        });
+
 
     }
 
