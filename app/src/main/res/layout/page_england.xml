@@ -56,6 +56,33 @@
                 android:src="@drawable/england_five_pounds"
                 android:contentDescription="@string/image" />
 
+            <ImageView
+                android:id="@+id/engTennerButton"
+                android:layout_width="354dp"
+                android:layout_height="165dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/england_ten_pounds"
+                android:contentDescription="@string/image" />
+
+            <ImageView
+                android:id="@+id/engTwentyButton"
+                android:layout_width="354dp"
+                android:layout_height="165dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/england_twenty_pounds"
+                android:contentDescription="@string/image" />
+
+            <ImageView
+                android:id="@+id/engFiftyButton"
+                android:layout_width="354dp"
+                android:layout_height="165dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/england_fifty_pounds"
+                android:contentDescription="@string/image" />
+
         </LinearLayout>
 
     </ScrollView>
