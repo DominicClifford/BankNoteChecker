@@ -3,4 +3,8 @@
     <string name="england">England</string>
     <string name="TitleEng">English Notes</string>
     <string name="WTDEng">Select the denomination you wish to check</string>
+
+    <!-- Five Pound Notes -->
+    <string name="TitleFive">Five Pound Note</string>
+
 </resources>

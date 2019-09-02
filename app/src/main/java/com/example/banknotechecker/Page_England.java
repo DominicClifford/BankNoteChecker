@@ -25,7 +25,7 @@ public class Page_England extends AppCompatActivity {
                 Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.image_animation);
                 v.startAnimation(animation);
                 //open new activity on click (Temp return to home)
-                Intent pageEngFiver = new Intent(Page_England.this, Page_Home.class);
+                Intent pageEngFiver = new Intent(Page_England.this, England_Five.class);
                 startActivity(pageEngFiver);
             }
         });
