@@ -17,7 +17,7 @@ public class Page_England extends AppCompatActivity {
         setContentView(R.layout.page_england);
 
         //Open England Page when english button is clicked
-        ImageView engFiver = findViewById(R.id.engFiverButton);
+        ImageView engFiver = findViewById(R.id.engFiver);
         engFiver.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -17,18 +17,53 @@
             android:gravity="center"
             app:layout_constraintTop_toTopOf="parent">
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_weight="100">
+
+                <TextView
+                    android:id="@+id/FiverFront"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="@string/Front"
+                    android:textAlignment="center"
+                    android:textColor="@color/textColour"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:layout_weight="50"
+                    tools:ignore="NestedWeights" />
+
+                <TextView
+                    android:id="@+id/FiverBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="@string/Back"
+                    android:textAlignment="center"
+                    android:textColor="@color/textColour"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_weight="50"/>
+
+            </LinearLayout>
+
             <ImageView
-                android:id="@+id/engFiverButton"
+                android:id="@+id/engFiverImage"
                 android:layout_width="match_parent"
                 android:layout_height="208dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="2.5dp"
                 android:layout_marginLeft="2.5dp"
                 android:layout_marginRight="2.5dp"
                 android:contentDescription="@string/image"
                 android:scaleType="fitCenter"
                 android:src="@drawable/england_five_front" />
-
 
         </LinearLayout>
 
