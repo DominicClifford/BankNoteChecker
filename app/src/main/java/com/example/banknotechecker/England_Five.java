@@ -31,7 +31,7 @@ public class England_Five extends AppCompatActivity {
                 TextView fiverFront1 = findViewById(R.id.FiverBack);
                 fiverFront1.setTextSize(20);
 
-                RelativeLayout frontMain1 = findViewById(R.id.frontMain1);
+                LinearLayout frontMain1 = findViewById(R.id.frontMain1);
                 frontMain1.setVisibility(View.VISIBLE);
             }
         });
@@ -49,9 +49,8 @@ public class England_Five extends AppCompatActivity {
                 TextView fiverFront1 = findViewById(R.id.FiverBack);
                 fiverFront1.setTextSize(30);
 
-                RelativeLayout frontMain1 = findViewById(R.id.frontMain1);
+                LinearLayout frontMain1 = findViewById(R.id.frontMain1);
                 frontMain1.setVisibility(View.INVISIBLE);
-
             }
         });
 
