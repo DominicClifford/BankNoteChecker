@@ -8,5 +8,8 @@
     <string name="TitleFive">Five Pound Note</string>
     <string name="Front">Front</string>
     <string name="Back">Back</string>
+    <string name="E_5Text_1">There is a large see-through window on the note. A clearly defined
+        portrait of the Queen is printed on the window with the words ‘£5 Bank of England’ printed
+        twice around the edge</string>
 
 </resources>
