@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".England_Five">
+    tools:context=".England_Five"
+    android:background="@color/background">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -56,10 +57,10 @@
             <ImageView
                 android:id="@+id/engFiverImage"
                 android:layout_width="match_parent"
-                android:layout_height="208dp"
+                android:layout_height="216dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="2.5dp"
                 android:layout_marginLeft="2.5dp"
+                android:layout_marginTop="2.5dp"
                 android:layout_marginRight="2.5dp"
                 android:contentDescription="@string/image"
                 android:scaleType="fitCenter"
