@@ -76,7 +76,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:layout_marginTop="2dp"
-                android:layout_marginBottom="2dp"
+                android:layout_marginBottom="10dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginLeft="5dp"
                 android:gravity="center">
@@ -128,6 +128,23 @@
                     android:contentDescription="@string/image"
                     android:scaleType="fitCenter"
                     android:src="@drawable/e_five_security6" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/image"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/e_five_security7" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/image"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/e_five_security8"
+                    android:layout_marginBottom="15dp"/>
 
             </LinearLayout>
 
