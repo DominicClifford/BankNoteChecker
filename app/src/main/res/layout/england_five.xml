@@ -65,12 +65,13 @@
             android:src="@drawable/e_five_front" />
 
         <ScrollView
-            android:layout_width="wrap_content"
+            android:id="@+id/frontMain1"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/engFiverImage">
+            android:layout_below="@id/engFiverImage"
+            android:visibility="visible">
 
             <LinearLayout
-                android:id="@+id/frontMain1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
@@ -78,9 +79,7 @@
                 android:layout_marginBottom="2dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginLeft="5dp"
-                android:gravity="center"
-                android:visibility="visible">
-
+                android:gravity="center">
 
                 <ImageView
                     android:layout_width="match_parent"

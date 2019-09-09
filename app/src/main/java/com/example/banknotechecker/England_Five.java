@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 public class England_Five extends AppCompatActivity {
@@ -27,7 +28,7 @@ public class England_Five extends AppCompatActivity {
                 TextView fiverFront1 = findViewById(R.id.FiverBack);
                 fiverFront1.setTextSize(20);
 
-                LinearLayout frontMain1 = findViewById(R.id.frontMain1);
+                ScrollView frontMain1 = findViewById(R.id.frontMain1);
                 frontMain1.setVisibility(View.VISIBLE);
             }
         });
@@ -45,7 +46,7 @@ public class England_Five extends AppCompatActivity {
                 TextView fiverFront1 = findViewById(R.id.FiverBack);
                 fiverFront1.setTextSize(30);
 
-                LinearLayout frontMain1 = findViewById(R.id.frontMain1);
+                ScrollView frontMain1 = findViewById(R.id.frontMain1);
                 frontMain1.setVisibility(View.INVISIBLE);
             }
         });
