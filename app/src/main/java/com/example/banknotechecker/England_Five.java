@@ -30,6 +30,9 @@ public class England_Five extends AppCompatActivity {
 
                 ScrollView frontMain1 = findViewById(R.id.frontMain1);
                 frontMain1.setVisibility(View.VISIBLE);
+
+                ScrollView frontMain2 = findViewById(R.id.frontMain2);
+                frontMain2.setVisibility(View.INVISIBLE);
             }
         });
 
@@ -48,6 +51,9 @@ public class England_Five extends AppCompatActivity {
 
                 ScrollView frontMain1 = findViewById(R.id.frontMain1);
                 frontMain1.setVisibility(View.INVISIBLE);
+
+                ScrollView frontMain2 = findViewById(R.id.frontMain2);
+                frontMain2.setVisibility(View.VISIBLE);
             }
         });
 

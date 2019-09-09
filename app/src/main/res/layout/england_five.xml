@@ -117,6 +117,36 @@
 
         </ScrollView>
 
+        <ScrollView
+            android:id="@+id/frontMain2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/engFiverImage"
+            android:visibility="invisible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/image"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/e_five_security1" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
     </RelativeLayout>
 
 
