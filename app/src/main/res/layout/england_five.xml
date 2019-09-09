@@ -113,6 +113,22 @@
                     android:scaleType="fitCenter"
                     android:src="@drawable/e_five_security4" />
 
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/image"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/e_five_security5" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/image"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/e_five_security6" />
+
             </LinearLayout>
 
         </ScrollView>
