@@ -13,7 +13,7 @@
         tools:layout_editor_absoluteX="43dp"
         tools:layout_editor_absoluteY="0dp">
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -21,10 +21,10 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <LinearLayout
+                android:id="@+id/topButton"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_weight="100"
                 android:orientation="horizontal">
 
                 <TextView
@@ -57,6 +57,7 @@
             </LinearLayout>
 
             <ImageView
+                android:layout_below="@id/topButton"
                 android:id="@+id/engFiverImage"
                 android:layout_width="match_parent"
                 android:layout_height="216dp"
@@ -70,6 +71,7 @@
                 android:src="@drawable/e_five_front" />
 
             <LinearLayout
+                android:layout_below="@id/engFiverImage"
                 android:id="@+id/frontMain1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -106,8 +108,9 @@
                     android:src="@drawable/e_five_security3" />
 
             </LinearLayout>
+            
 
-        </LinearLayout>
+        </RelativeLayout>
 
     </ScrollView>
 
