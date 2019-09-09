@@ -53,7 +53,7 @@
                 android:layout_height="165dp"
                 android:layout_marginTop="10dp"
                 android:layout_gravity="center"
-                android:src="@drawable/england_five_button"
+                android:src="@drawable/e_five_button"
                 android:contentDescription="@string/image" />
 
             <ImageView
@@ -62,7 +62,7 @@
                 android:layout_height="165dp"
                 android:layout_marginTop="10dp"
                 android:layout_gravity="center"
-                android:src="@drawable/england_ten_button"
+                android:src="@drawable/e_ten_button"
                 android:contentDescription="@string/image" />
 
             <ImageView
@@ -71,7 +71,7 @@
                 android:layout_height="165dp"
                 android:layout_marginTop="10dp"
                 android:layout_gravity="center"
-                android:src="@drawable/england_twenty_button"
+                android:src="@drawable/e_twenty_button"
                 android:contentDescription="@string/image" />
 
             <ImageView
@@ -80,7 +80,7 @@
                 android:layout_height="165dp"
                 android:layout_marginTop="10dp"
                 android:layout_gravity="center"
-                android:src="@drawable/england_fifty_button"
+                android:src="@drawable/e_fifty_button"
                 android:contentDescription="@string/image" />
 
         </LinearLayout>

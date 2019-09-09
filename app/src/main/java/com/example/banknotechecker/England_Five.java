@@ -1,14 +1,10 @@
 package com.example.banknotechecker;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 public class England_Five extends AppCompatActivity {
@@ -23,7 +19,7 @@ public class England_Five extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 ImageView noteImage = findViewById(R.id.engFiverImage);
-                noteImage.setImageResource(R.drawable.england_five_front);
+                noteImage.setImageResource(R.drawable.e_five_front);
 
                 TextView fiverBack1 = findViewById(R.id.FiverFront);
                 fiverBack1.setTextSize(30);
@@ -41,7 +37,7 @@ public class England_Five extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 ImageView noteImage = findViewById(R.id.engFiverImage);
-                noteImage.setImageResource(R.drawable.england_five_back);
+                noteImage.setImageResource(R.drawable.e_five_back);
 
                 TextView fiverBack1 = findViewById(R.id.FiverFront);
                 fiverBack1.setTextSize(20);

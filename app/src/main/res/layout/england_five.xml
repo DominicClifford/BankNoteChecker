@@ -67,7 +67,7 @@
                 android:layout_marginBottom="2dp"
                 android:contentDescription="@string/image"
                 android:scaleType="fitCenter"
-                android:src="@drawable/england_five_front" />
+                android:src="@drawable/e_five_front" />
 
             <LinearLayout
                 android:id="@+id/frontMain1"
@@ -96,6 +96,14 @@
                     android:contentDescription="@string/image"
                     android:scaleType="fitCenter"
                     android:src="@drawable/e_five_security2" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/image"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/e_five_security3" />
 
             </LinearLayout>
 
