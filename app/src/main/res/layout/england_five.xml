@@ -7,71 +7,69 @@
     tools:context=".England_Five"
     android:background="@color/background">
 
-    <ScrollView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="0dp">
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
 
-        <RelativeLayout
+        <LinearLayout
+            android:id="@+id/topButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="vertical"
-            app:layout_constraintTop_toTopOf="parent">
+            android:layout_gravity="center"
+            android:orientation="horizontal">
 
-            <LinearLayout
-                android:id="@+id/topButton"
-                android:layout_width="match_parent"
+            <TextView
+                android:id="@+id/FiverFront"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/FiverFront"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="2dp"
-                    android:layout_marginBottom="2dp"
-                    android:layout_weight="50"
-                    android:text="@string/Front"
-                    android:textAlignment="center"
-                    android:textColor="@color/textColour"
-                    android:textSize="30sp"
-                    android:textStyle="bold"
-                    tools:ignore="NestedWeights" />
-
-                <TextView
-                    android:id="@+id/FiverBack"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="2dp"
-                    android:layout_marginBottom="2dp"
-                    android:layout_weight="50"
-                    android:text="@string/Back"
-                    android:textAlignment="center"
-                    android:textColor="@color/textColour"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-
-            <ImageView
-                android:layout_below="@id/topButton"
-                android:id="@+id/engFiverImage"
-                android:layout_width="match_parent"
-                android:layout_height="216dp"
-                android:layout_gravity="center"
-                android:layout_marginLeft="2.5dp"
-                android:layout_marginTop="2.5dp"
-                android:layout_marginRight="2.5dp"
+                android:layout_marginTop="2dp"
                 android:layout_marginBottom="2dp"
-                android:contentDescription="@string/image"
-                android:scaleType="fitCenter"
-                android:src="@drawable/e_five_front" />
+                android:layout_weight="50"
+                android:text="@string/Front"
+                android:textAlignment="center"
+                android:textColor="@color/textColour"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:ignore="NestedWeights" />
+
+            <TextView
+                android:id="@+id/FiverBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="50"
+                android:text="@string/Back"
+                android:textAlignment="center"
+                android:textColor="@color/textColour"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_below="@id/topButton"
+            android:id="@+id/engFiverImage"
+            android:layout_width="match_parent"
+            android:layout_height="216dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginTop="2.5dp"
+            android:layout_marginRight="2.5dp"
+            android:layout_marginBottom="2dp"
+            android:contentDescription="@string/image"
+            android:scaleType="fitCenter"
+            android:src="@drawable/e_five_front" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/engFiverImage">
 
             <LinearLayout
-                android:layout_below="@id/engFiverImage"
                 android:id="@+id/frontMain1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -82,6 +80,7 @@
                 android:layout_marginLeft="5dp"
                 android:gravity="center"
                 android:visibility="visible">
+
 
                 <ImageView
                     android:layout_width="match_parent"
@@ -117,10 +116,10 @@
 
             </LinearLayout>
 
+        </ScrollView>
 
-        </RelativeLayout>
+    </RelativeLayout>
 
-    </ScrollView>
 
 
 
