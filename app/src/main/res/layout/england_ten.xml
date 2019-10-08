@@ -56,9 +56,9 @@
             android:layout_width="match_parent"
             android:layout_height="216dp"
             android:layout_gravity="center"
-            android:layout_marginLeft="2.5dp"
+            android:layout_marginLeft="3dp"
             android:layout_marginTop="2.5dp"
-            android:layout_marginRight="2.5dp"
+            android:layout_marginRight="3dp"
             android:layout_marginBottom="2dp"
             android:contentDescription="@string/image"
             android:scaleType="fitCenter"
@@ -87,12 +87,48 @@
                     android:layout_gravity="center"
                     android:contentDescription="@string/image"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/e_five_security1" />
+                    android:src="@drawable/e_ten_security1" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/image"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/e_ten_security2" />
 
             </LinearLayout>
 
         </ScrollView>
 
+        <ScrollView
+            android:id="@+id/frontMain2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/engTenImage"
+            android:visibility="invisible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/image"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/e_five_securityb1" />
+
+            </LinearLayout>
+
+        </ScrollView>
 
     </RelativeLayout>
 
