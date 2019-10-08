@@ -173,7 +173,15 @@
                     android:layout_gravity="center"
                     android:contentDescription="@string/image"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/e_five_securityb1" />
+                    android:src="@drawable/e_ten_securityb1" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/image"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/e_ten_securityb2" />
 
             </LinearLayout>
 
