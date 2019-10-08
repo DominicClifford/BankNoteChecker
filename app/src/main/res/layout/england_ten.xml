@@ -97,6 +97,22 @@
                     android:scaleType="fitCenter"
                     android:src="@drawable/e_ten_security2" />
 
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/image"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/e_ten_security3" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/image"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/e_ten_security4" />
+
             </LinearLayout>
 
         </ScrollView>
