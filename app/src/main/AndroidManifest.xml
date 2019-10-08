@@ -14,7 +14,8 @@
 
         <activity
             android:name=".Page_Home"
-            android:label="@string/app_name">
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,32 +25,38 @@
         <activity
             android:name=".Page_England"
             android:label="@string/england"
-            android:parentActivityName=".Page_Home">
+            android:parentActivityName=".Page_Home"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".England_Five"
             android:label="@string/TitleFive"
-            android:parentActivityName=".Page_England">
+            android:parentActivityName=".Page_England"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".England_Ten"
             android:label="@string/TitleTen"
-            android:parentActivityName=".Page_England">
+            android:parentActivityName=".Page_England"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".Page_Scotland"
             android:label="@string/scotland"
-            android:parentActivityName=".Page_Home">
+            android:parentActivityName=".Page_Home"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".Page_NIreland"
             android:label="@string/nIreland"
-            android:parentActivityName=".Page_Home">
+            android:parentActivityName=".Page_Home"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".Page_Euro"
             android:label="@string/Euro"
-            android:parentActivityName=".Page_Home">
+            android:parentActivityName=".Page_Home"
+            android:screenOrientation="portrait">
         </activity>
     </application>
 
