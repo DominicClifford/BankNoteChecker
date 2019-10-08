@@ -32,6 +32,11 @@
             android:parentActivityName=".Page_England">
         </activity>
         <activity
+            android:name=".England_Ten"
+            android:label="@string/TitleTen"
+            android:parentActivityName=".Page_England">
+        </activity>
+        <activity
             android:name=".Page_Scotland"
             android:label="@string/scotland"
             android:parentActivityName=".Page_Home">
@@ -47,5 +52,6 @@
             android:parentActivityName=".Page_Home">
         </activity>
     </application>
+
 
 </manifest>
