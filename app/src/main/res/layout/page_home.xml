@@ -55,9 +55,9 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="5dp"
                 android:contentDescription="@string/image"
-                android:src="@drawable/england_sterling" />
+                android:src="@drawable/england_sterling_v2" />
 
             <ImageView
                 android:id="@+id/scotButton"
@@ -65,10 +65,10 @@
                 android:layout_height="wrap_content"
                 android:scaleType="fitXY"
                 android:adjustViewBounds="true"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="5dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="5dp"
                 android:layout_gravity="center"
                 android:src="@drawable/scotland_sterling"
                 android:contentDescription="@string/image" />
@@ -79,12 +79,12 @@
                 android:layout_height="wrap_content"
                 android:scaleType="fitXY"
                 android:adjustViewBounds="true"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="5dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="5dp"
                 android:layout_gravity="center"
-                android:src="@drawable/england_sterling_v2"
+                android:src="@drawable/nireland_sterling"
                 android:contentDescription="@string/image" />
 
             <ImageView
@@ -93,12 +93,12 @@
                 android:layout_height="wrap_content"
                 android:scaleType="fitXY"
                 android:adjustViewBounds="true"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="5dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="15dp"
                 android:layout_gravity="center"
-                android:src="@drawable/england_sterling_v3"
+                android:src="@drawable/euro"
                 android:contentDescription="@string/image" />
 
         </LinearLayout>
