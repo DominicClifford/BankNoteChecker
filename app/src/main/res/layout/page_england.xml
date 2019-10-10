@@ -49,37 +49,53 @@
 
             <ImageView
                 android:id="@+id/engFiver"
-                android:layout_width="354dp"
-                android:layout_height="165dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
                 android:layout_marginTop="10dp"
-                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
                 android:src="@drawable/e_five_button"
                 android:contentDescription="@string/image" />
 
             <ImageView
                 android:id="@+id/engTennerButton"
-                android:layout_width="354dp"
-                android:layout_height="165dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
                 android:layout_marginTop="10dp"
-                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
                 android:src="@drawable/e_ten_button"
                 android:contentDescription="@string/image" />
 
             <ImageView
                 android:id="@+id/engTwentyButton"
-                android:layout_width="354dp"
-                android:layout_height="165dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
                 android:layout_marginTop="10dp"
-                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
                 android:src="@drawable/e_twenty_button"
                 android:contentDescription="@string/image" />
 
             <ImageView
                 android:id="@+id/engFiftyButton"
-                android:layout_width="354dp"
-                android:layout_height="165dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
                 android:layout_marginTop="10dp"
-                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
                 android:src="@drawable/e_fifty_button"
                 android:contentDescription="@string/image" />
 

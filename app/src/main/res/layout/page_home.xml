@@ -48,36 +48,55 @@
 
             <ImageView
                 android:id="@+id/engButton"
-                android:layout_width="354dp"
-                android:layout_height="165dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
                 android:layout_marginTop="10dp"
-                android:layout_gravity="center"
-                android:src="@drawable/england_sterling"
-                android:contentDescription="@string/image" />
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:contentDescription="@string/image"
+                android:src="@drawable/england_sterling" />
 
             <ImageView
                 android:id="@+id/scotButton"
-                android:layout_width="354dp"
-                android:layout_height="165dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
                 android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
                 android:layout_gravity="center"
                 android:src="@drawable/scotland_sterling"
                 android:contentDescription="@string/image" />
 
             <ImageView
                 android:id="@+id/nIrelandButton"
-                android:layout_width="354dp"
-                android:layout_height="165dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
                 android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
                 android:layout_gravity="center"
                 android:src="@drawable/nireland_sterling"
                 android:contentDescription="@string/image" />
 
             <ImageView
                 android:id="@+id/euroButton"
-                android:layout_width="354dp"
-                android:layout_height="165dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
                 android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
                 android:layout_gravity="center"
                 android:src="@drawable/euro"
                 android:contentDescription="@string/image" />

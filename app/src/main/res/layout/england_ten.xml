@@ -54,14 +54,15 @@
             android:layout_below="@id/topButton"
             android:id="@+id/engTenImage"
             android:layout_width="match_parent"
-            android:layout_height="216dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginLeft="3dp"
+            android:layout_marginLeft="5dp"
             android:layout_marginTop="2.5dp"
-            android:layout_marginRight="3dp"
-            android:layout_marginBottom="2dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
             android:contentDescription="@string/image"
-            android:scaleType="fitCenter"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
             android:src="@drawable/e_ten_front" />
 
         <ScrollView
@@ -83,66 +84,105 @@
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="110dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:contentDescription="@string/image"
-                    android:scaleType="fitCenter"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="2.5dp"
                     android:src="@drawable/e_ten_security1" />
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="110dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:contentDescription="@string/image"
-                    android:scaleType="fitCenter"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="2.5dp"
                     android:src="@drawable/e_ten_security2" />
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="110dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:contentDescription="@string/image"
-                    android:scaleType="fitCenter"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="2.5dp"
                     android:src="@drawable/e_ten_security3" />
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="110dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:contentDescription="@string/image"
-                    android:scaleType="fitCenter"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="2.5dp"
                     android:src="@drawable/e_ten_security4" />
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="110dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:contentDescription="@string/image"
-                    android:scaleType="fitCenter"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="2.5dp"
                     android:src="@drawable/e_ten_security5" />
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="110dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:contentDescription="@string/image"
-                    android:scaleType="fitCenter"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="2.5dp"
                     android:src="@drawable/e_ten_security6" />
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="110dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:contentDescription="@string/image"
-                    android:scaleType="fitCenter"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="2.5dp"
                     android:src="@drawable/e_ten_security7" />
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="110dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:contentDescription="@string/image"
-                    android:scaleType="fitCenter"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginRight="5dp"
                     android:src="@drawable/e_ten_security8"
                     android:layout_marginBottom="15dp"/>
 
@@ -162,25 +202,35 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:layout_marginTop="2dp"
-                android:layout_marginBottom="2dp"
+                android:layout_marginBottom="10dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginLeft="5dp"
                 android:gravity="center">
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="110dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:contentDescription="@string/image"
-                    android:scaleType="fitCenter"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="2.5dp"
                     android:src="@drawable/e_ten_securityb1" />
 
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="110dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:contentDescription="@string/image"
-                    android:scaleType="fitCenter"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="15dp"
                     android:src="@drawable/e_ten_securityb2" />
 
             </LinearLayout>
