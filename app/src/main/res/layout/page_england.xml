@@ -57,7 +57,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginBottom="10dp"
-                android:src="@drawable/e_five_button"
+                android:src="@drawable/e_five_button_v2"
                 android:contentDescription="@string/image" />
 
             <ImageView
@@ -70,7 +70,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginBottom="10dp"
-                android:src="@drawable/e_ten_button"
+                android:src="@drawable/e_ten_button_v2"
                 android:contentDescription="@string/image" />
 
             <ImageView
