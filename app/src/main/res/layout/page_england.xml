@@ -57,7 +57,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginBottom="5dp"
-                android:src="@drawable/e_five_button_v2"
+                android:src="@drawable/e_five_button_v3"
                 android:contentDescription="@string/image" />
 
             <ImageView
@@ -70,7 +70,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginBottom="5dp"
-                android:src="@drawable/e_ten_button_v2"
+                android:src="@drawable/e_ten_button_v3"
                 android:contentDescription="@string/image" />
 
             <ImageView
@@ -83,7 +83,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginBottom="5dp"
-                android:src="@drawable/e_twenty_button_v2"
+                android:src="@drawable/e_twenty_button_v3"
                 android:contentDescription="@string/image" />
 
             <ImageView
@@ -96,7 +96,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginBottom="15dp"
-                android:src="@drawable/e_fifty_button_v2"
+                android:src="@drawable/e_fifty_button_v3"
                 android:contentDescription="@string/image" />
 
         </LinearLayout>
