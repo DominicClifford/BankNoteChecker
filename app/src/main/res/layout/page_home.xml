@@ -57,7 +57,7 @@
                 android:layout_marginRight="15dp"
                 android:layout_marginBottom="5dp"
                 android:contentDescription="@string/image"
-                android:src="@drawable/england_sterling_v2" />
+                android:src="@drawable/england_sterling_v4" />
 
             <ImageView
                 android:id="@+id/scotButton"
@@ -70,7 +70,7 @@
                 android:layout_marginRight="15dp"
                 android:layout_marginBottom="5dp"
                 android:layout_gravity="center"
-                android:src="@drawable/scotland_sterling"
+                android:src="@drawable/scotland_sterling_v2"
                 android:contentDescription="@string/image" />
 
             <ImageView
@@ -84,7 +84,7 @@
                 android:layout_marginRight="15dp"
                 android:layout_marginBottom="5dp"
                 android:layout_gravity="center"
-                android:src="@drawable/nireland_sterling"
+                android:src="@drawable/nireland_sterling_v2"
                 android:contentDescription="@string/image" />
 
             <ImageView
