@@ -59,6 +59,20 @@ public class Page_England extends AppCompatActivity {
         });
 
         //Open England Page when english button is clicked
+        ImageView engTwentyP = findViewById(R.id.engTwentyPolButton);
+        engTwentyP.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //set animation on click
+                Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.image_animation);
+                v.startAnimation(animation);
+                //open new activity on click (Temp return to home)
+                Intent pageEngTwentyP = new Intent(Page_England.this, England_Twenty_P.class);
+                startActivity(pageEngTwentyP);
+            }
+        });
+
+        //Open England Page when english button is clicked
         ImageView engFifty = findViewById(R.id.engFiftyButton);
         engFifty.setOnClickListener(new View.OnClickListener() {
             @Override
