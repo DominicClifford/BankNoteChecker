@@ -53,7 +53,7 @@ public class Page_England extends AppCompatActivity {
                 Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.image_animation);
                 v.startAnimation(animation);
                 //open new activity on click (Temp return to home)
-                Intent pageEngTwenty = new Intent(Page_England.this, Page_Home.class);
+                Intent pageEngTwenty = new Intent(Page_England.this, England_Twenty.class);
                 startActivity(pageEngTwenty);
             }
         });
@@ -81,7 +81,7 @@ public class Page_England extends AppCompatActivity {
                 Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.image_animation);
                 v.startAnimation(animation);
                 //open new activity on click (Temp return to home)
-                Intent pageEngFifty = new Intent(Page_England.this, Page_Home.class);
+                Intent pageEngFifty = new Intent(Page_England.this, England_Fifty.class);
                 startActivity(pageEngFifty);
             }
         });

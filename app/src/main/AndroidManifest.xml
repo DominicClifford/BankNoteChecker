@@ -12,6 +12,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
 
+
         <activity
             android:name=".Page_Home"
             android:label="@string/app_name"
@@ -26,44 +27,47 @@
             android:name=".Page_England"
             android:label="@string/england"
             android:parentActivityName=".Page_Home"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".England_Five"
             android:label="@string/TitleFive"
             android:parentActivityName=".Page_England"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".England_Ten"
             android:label="@string/TitleTen"
             android:parentActivityName=".Page_England"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".England_Twenty_P"
             android:label="@string/TitleTwenty"
             android:parentActivityName=".Page_England"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".England_Twenty"
+            android:label="@string/TitleTwenty"
+            android:parentActivityName=".Page_England"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".England_Fifty"
+            android:label="@string/TitleFifty"
+            android:parentActivityName=".Page_England"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Page_Scotland"
             android:label="@string/scotland"
             android:parentActivityName=".Page_Home"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Page_NIreland"
             android:label="@string/nIreland"
             android:parentActivityName=".Page_Home"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Page_Euro"
             android:label="@string/Euro"
             android:parentActivityName=".Page_Home"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
