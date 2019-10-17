@@ -40,11 +40,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="@string/WTDScot"
+                android:text="@string/Printing"
                 android:textAlignment="center"
                 android:textColor="@color/textColour"
                 android:textSize="20sp"
                 android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/engFiftyImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:contentDescription="@string/image"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:src="@drawable/printing_2" />
 
         </LinearLayout>
 

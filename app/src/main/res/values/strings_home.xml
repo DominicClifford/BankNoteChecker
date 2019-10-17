@@ -3,4 +3,5 @@
     <string name="home">Home Page</string>
     <string name="TitleHome">Welcome to BNC</string>
     <string name="WTDHome">Select the currency you want to check</string>
+    <string name="Printing">This page is currently being printed and will enter circulation soon</string>
 </resources>
