@@ -43,7 +43,7 @@
                 android:text="@string/WTDNIre"
                 android:textAlignment="center"
                 android:textColor="@color/textColour"
-                android:textSize="35sp"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
         </LinearLayout>

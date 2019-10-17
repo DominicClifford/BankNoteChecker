@@ -44,7 +44,7 @@
                 android:text="@string/WTDEng"
                 android:textAlignment="center"
                 android:textColor="@color/textColour"
-                android:textSize="35sp"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <ImageView
