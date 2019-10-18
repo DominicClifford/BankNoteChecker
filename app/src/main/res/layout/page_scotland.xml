@@ -49,24 +49,11 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginBottom="5dp"
-                android:text="@string/Printing"
+                android:text="@string/WTDScot"
                 android:textAlignment="center"
                 android:textColor="@color/textColour"
                 android:textSize="20sp"
                 android:textStyle="bold" />
-
-            <ImageView
-                android:id="@+id/engFiftyImage"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:contentDescription="@string/image"
-                android:layout_marginTop="5dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:scaleType="fitXY"
-                android:adjustViewBounds="true"
-                android:src="@drawable/printing_2" />
 
             <TextView
                 android:id="@+id/SFiveP"
@@ -74,8 +61,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:layout_marginBottom="5dp"
                 android:text="@string/fiveP"
                 android:textAlignment="center"
@@ -84,14 +71,53 @@
                 android:textSize="15sp"
                 android:textStyle="bold|italic" />
 
+            <ImageView
+                android:id="@+id/sBosFive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/s_bos_five_button"
+                android:contentDescription="@string/image" />
+
+            <ImageView
+                android:id="@+id/sCbFive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/s_cb_five_button"
+                android:contentDescription="@string/image" />
+
+            <ImageView
+                android:id="@+id/sRbsFive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/s_rbs_five_button"
+                android:contentDescription="@string/image" />
+
             <TextView
                 android:id="@+id/STenP"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:layout_marginBottom="5dp"
                 android:text="@string/tenP"
                 android:textAlignment="center"
@@ -100,14 +126,53 @@
                 android:textSize="15sp"
                 android:textStyle="bold|italic" />
 
+            <ImageView
+                android:id="@+id/sBosTen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/s_bos_ten_button"
+                android:contentDescription="@string/image" />
+
+            <ImageView
+                android:id="@+id/sCbTen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/s_cb_ten_button"
+                android:contentDescription="@string/image" />
+
+            <ImageView
+                android:id="@+id/sRbsTen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/s_rbs_ten_button"
+                android:contentDescription="@string/image" />
+
             <TextView
                 android:id="@+id/STwentyP"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:layout_marginBottom="5dp"
                 android:text="@string/twentyP"
                 android:textAlignment="center"
@@ -116,14 +181,53 @@
                 android:textSize="15sp"
                 android:textStyle="bold|italic" />
 
+            <ImageView
+                android:id="@+id/sBosTwenty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/s_bos_twenty_button"
+                android:contentDescription="@string/image" />
+
+            <ImageView
+                android:id="@+id/sCbTwenty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/s_cb_twenty_button"
+                android:contentDescription="@string/image" />
+
+            <ImageView
+                android:id="@+id/sRbsTwenty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/s_rbs_twenty_button"
+                android:contentDescription="@string/image" />
+
             <TextView
                 android:id="@+id/SFiftyP"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:layout_marginBottom="5dp"
                 android:text="@string/fiftyP"
                 android:textAlignment="center"
@@ -132,14 +236,53 @@
                 android:textSize="15sp"
                 android:textStyle="bold|italic" />
 
+            <ImageView
+                android:id="@+id/sBosFifty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/s_bos_fifty_button"
+                android:contentDescription="@string/image" />
+
+            <ImageView
+                android:id="@+id/sCbFifty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/s_cb_fifty_button"
+                android:contentDescription="@string/image" />
+
+            <ImageView
+                android:id="@+id/sRbsFifty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/s_rbs_fifty_button"
+                android:contentDescription="@string/image" />
+
             <TextView
                 android:id="@+id/SHunP"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:layout_marginBottom="5dp"
                 android:text="@string/hunP"
                 android:textAlignment="center"
@@ -148,6 +291,44 @@
                 android:textSize="15sp"
                 android:textStyle="bold|italic" />
 
+            <ImageView
+                android:id="@+id/sBosHun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/s_bos_hun_button"
+                android:contentDescription="@string/image" />
+
+            <ImageView
+                android:id="@+id/sCbHun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/s_cb_hun_button"
+                android:contentDescription="@string/image" />
+
+            <ImageView
+                android:id="@+id/sRbsHun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/s_rbs_hun_button"
+                android:contentDescription="@string/image" />
 
         </LinearLayout>
 
