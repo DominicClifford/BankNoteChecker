@@ -68,22 +68,85 @@
                 android:adjustViewBounds="true"
                 android:src="@drawable/printing_2" />
 
+            <TextView
+                android:id="@+id/SFiveP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/fiveP"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/dividingLine"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
 
-                <TextView
-                    android:id="@+id/SFiveP"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="start"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginRight="15dp"
-                    android:layout_marginBottom="5dp"
-                    android:text="@string/fiveP"
-                    android:textAlignment="center"
-                    android:textAllCaps="false"
-                    android:textColor="@color/dividingLine"
-                    android:textSize="15sp"
-                    android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/STenP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/tenP"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/dividingLine"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/STwentyP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/twentyP"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/dividingLine"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/SFiftyP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/fiftyP"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/dividingLine"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/SHunP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/hunP"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/dividingLine"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
 
 
         </LinearLayout>

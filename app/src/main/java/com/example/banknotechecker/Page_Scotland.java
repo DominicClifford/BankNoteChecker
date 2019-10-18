@@ -16,7 +16,17 @@ public class Page_Scotland extends AppCompatActivity {
         setContentView(R.layout.page_scotland);
 
         TextView sFiveP = findViewById(R.id.SFiveP);
+        TextView sTenP = findViewById(R.id.STenP);
+        TextView sTwentyP = findViewById(R.id.STwentyP);
+        TextView sFiftyP = findViewById(R.id.SFiftyP);
+        TextView sHunP = findViewById(R.id.SHunP);
+
+
         sFiveP.setPaintFlags(sFiveP.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
+        sTenP.setPaintFlags(sFiveP.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
+        sTwentyP.setPaintFlags(sFiveP.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
+        sFiftyP.setPaintFlags(sFiveP.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
+        sHunP.setPaintFlags(sFiveP.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
 
     }
 }
