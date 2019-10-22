@@ -243,8 +243,21 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="2.5dp"
                     android:layout_marginRight="5dp"
-                    android:layout_marginBottom="15dp"
+                    android:layout_marginBottom="2.5dp"
                     android:src="@drawable/e_twenty_p_securityb2" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/image"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="15dp"
+                    android:src="@drawable/e_twenty_p_securityb3" />
 
             </LinearLayout>
 
