@@ -1,6 +1,7 @@
 package com.example.banknotechecker;
 
 import android.content.Intent;
+import android.graphics.Paint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -8,6 +9,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.view.View.OnClickListener;
+import android.widget.TextView;
 
 public class Page_England extends AppCompatActivity {
 
@@ -15,6 +17,17 @@ public class Page_England extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.page_england);
+
+        TextView eFiveP = findViewById(R.id.EFiveP);
+        TextView eTenP = findViewById(R.id.ETenP);
+        TextView eTwentyP = findViewById(R.id.ETwentyP);
+        TextView eFiftyP = findViewById(R.id.EFiftyP);
+
+
+        eFiveP.setPaintFlags(eFiveP.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
+        eTenP.setPaintFlags(eTenP.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
+        eTwentyP.setPaintFlags(eTwentyP.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
+        eFiftyP.setPaintFlags(eFiftyP.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
 
         //Open England Page when english button is clicked
         ImageView engFiver = findViewById(R.id.engFiver);
