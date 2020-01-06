@@ -33,7 +33,7 @@ public class Page_Scotland extends AppCompatActivity {
         sFiftyP.setPaintFlags(sFiftyP.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
         sHunP.setPaintFlags(sHunP.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
 
-        //Open England Page when english button is clicked
+        //Open Scotland Bos Five Page when button is clicked
         ImageView sBosFive = findViewById(R.id.sBosFive);
         sBosFive.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -42,8 +42,22 @@ public class Page_Scotland extends AppCompatActivity {
                 Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.image_animation);
                 v.startAnimation(animation);
                 //open new activity on click (Temp return to home)
-                Intent pageEngFiver = new Intent(Page_Scotland.this, Scotland_BOS_Five.class);
-                startActivity(pageEngFiver);
+                Intent pageBosFiver = new Intent(Page_Scotland.this, Scotland_BOS_Five.class);
+                startActivity(pageBosFiver);
+            }
+        });
+
+        //Open Scotland CB Five Page when button is clicked
+        ImageView sCBFive = findViewById(R.id.sCbFive);
+        sCBFive.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //set animation on click
+                Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.image_animation);
+                v.startAnimation(animation);
+                //open new activity on click (Temp return to home)
+                Intent pageCBFiver = new Intent(Page_Scotland.this, Scotland_CB_Five.class);
+                startActivity(pageCBFiver);
             }
         });
 
