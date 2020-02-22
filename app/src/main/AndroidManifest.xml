@@ -71,6 +71,11 @@
             android:name=".Scotland_RBS_Five"
             android:label="@string/TitleFive"
             android:parentActivityName=".Page_Scotland"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scotland_BOS_Ten"
+            android:label="@string/TitleTen"
+            android:parentActivityName=".Page_Scotland"
             android:screenOrientation="portrait"/>
         <activity
             android:name=".Page_NIreland"

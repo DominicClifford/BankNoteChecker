@@ -61,7 +61,7 @@ public class Page_Scotland extends AppCompatActivity {
             }
         });
 
-        //Open Scotland CB Five Page when button is clicked
+        //Open Scotland RBS Five Page when button is clicked
         ImageView sRbsFive = findViewById(R.id.sRbsFive);
         sRbsFive.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -72,6 +72,20 @@ public class Page_Scotland extends AppCompatActivity {
                 //open new activity on click (Temp return to home)
                 Intent pageRbsFiver = new Intent(Page_Scotland.this, Scotland_RBS_Five.class);
                 startActivity(pageRbsFiver);
+            }
+        });
+
+        //Open Scotland BOS Ten Page when button is clicked
+        ImageView sBosTen = findViewById(R.id.sBosTen);
+        sBosTen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //set animation on click
+                Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.image_animation);
+                v.startAnimation(animation);
+                //open new activity on click (Temp return to home)
+                Intent pageBosTen = new Intent(Page_Scotland.this, Scotland_BOS_Ten.class);
+                startActivity(pageBosTen);
             }
         });
 
