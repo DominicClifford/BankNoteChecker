@@ -14,8 +14,8 @@ public class Scotland_BOS_Ten extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.scotland_bos_ten);
 
-        TextView fiverFront = findViewById(R.id.sBosTenFront);
-        fiverFront.setOnClickListener(new View.OnClickListener() {
+        TextView tenFront = findViewById(R.id.sBosTenFront);
+        tenFront.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 ImageView noteImage = findViewById(R.id.sBosTenImage);
@@ -35,8 +35,8 @@ public class Scotland_BOS_Ten extends AppCompatActivity {
             }
         });
 
-        TextView fiverBack = findViewById(R.id.sBosTenBack);
-        fiverBack.setOnClickListener(new View.OnClickListener() {
+        TextView tenBack = findViewById(R.id.sBosTenBack);
+        tenBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 ImageView noteImage = findViewById(R.id.sBosTenImage);
