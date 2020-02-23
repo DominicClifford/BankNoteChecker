@@ -130,5 +130,19 @@ public class Page_Scotland extends AppCompatActivity {
                 startActivity(pageBosTwenty);
             }
         });
+
+        //Open Scotland CB Twenty Page when button is clicked
+        ImageView sCbTwenty = findViewById(R.id.sCbTwenty);
+        sCbTwenty.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //set animation on click
+                Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.image_animation);
+                v.startAnimation(animation);
+                //open new activity on click (Temp return to home)
+                Intent pageCbTwenty = new Intent(Page_Scotland.this, Scotland_CB_Twenty.class);
+                startActivity(pageCbTwenty);
+            }
+        });
     }
 }
