@@ -11,6 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+
         <activity
             android:name=".Page_Home"
             android:label="@string/app_name"
@@ -105,7 +106,13 @@
             android:name=".Scotland_BOS_Fifty"
             android:label="@string/TitleFifty"
             android:parentActivityName=".Page_Scotland"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scotland_CB_Fifty"
+            android:label="@string/TitleFifty"
+            android:parentActivityName=".Page_Scotland"
             android:screenOrientation="portrait"/>
+
         <activity
             android:name=".Page_NIreland"
             android:label="@string/nIreland"
