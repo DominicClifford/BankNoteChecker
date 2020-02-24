@@ -200,5 +200,19 @@ public class Page_Scotland extends AppCompatActivity {
                 startActivity(pageRBSFifty);
             }
         });
+
+        //Open Scotland Bank of Scotland Hundred Page when button is clicked
+        ImageView sBosHun = findViewById(R.id.sBosHun);
+        sBosHun.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //set animation on click
+                Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.image_animation);
+                v.startAnimation(animation);
+                //open new activity on click (Temp return to home)
+                Intent pageBOSHun = new Intent(Page_Scotland.this, Scotland_BOS_Hun.class);
+                startActivity(pageBOSHun);
+            }
+        });
     }
 }
