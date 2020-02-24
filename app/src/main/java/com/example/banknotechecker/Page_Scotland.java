@@ -214,5 +214,19 @@ public class Page_Scotland extends AppCompatActivity {
                 startActivity(pageBOSHun);
             }
         });
+
+        //Open Scotland CB Bank Hundred Page when button is clicked
+        ImageView sCbHun = findViewById(R.id.sCbHun);
+        sCbHun.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //set animation on click
+                Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.image_animation);
+                v.startAnimation(animation);
+                //open new activity on click (Temp return to home)
+                Intent pageCbHun = new Intent(Page_Scotland.this, Scotland_CB_Hun.class);
+                startActivity(pageCbHun);
+            }
+        });
     }
 }

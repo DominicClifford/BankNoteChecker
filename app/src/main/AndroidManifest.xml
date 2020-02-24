@@ -121,6 +121,11 @@
             android:name=".Scotland_BOS_Hun"
             android:label="@string/TitleHun"
             android:parentActivityName=".Page_Scotland"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scotland_CB_Hun"
+            android:label="@string/TitleHun"
+            android:parentActivityName=".Page_Scotland"
             android:screenOrientation="portrait"/>
 
         <activity
