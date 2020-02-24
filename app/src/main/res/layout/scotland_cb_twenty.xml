@@ -183,7 +183,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="2.5dp"
                     android:layout_marginRight="5dp"
-                    android:layout_marginBottom="2.5dp"
+                    android:layout_marginBottom="15dp"
                     android:src="@drawable/s_cb_twenty_security8" />
 
             </LinearLayout>
