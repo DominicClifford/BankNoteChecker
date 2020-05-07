@@ -66,7 +66,7 @@
                 android:textStyle="bold|italic" />
 
             <ImageView
-                android:id="@+id/niBoiFive"
+                android:id="@+id/NiBoiFive"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:scaleType="fitXY"

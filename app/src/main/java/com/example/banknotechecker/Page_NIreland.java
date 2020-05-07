@@ -1,8 +1,13 @@
 package com.example.banknotechecker;
 
+import android.content.Intent;
 import android.graphics.Paint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class Page_NIreland extends AppCompatActivity {
@@ -25,7 +30,19 @@ public class Page_NIreland extends AppCompatActivity {
         niFiftyP.setPaintFlags(niFiftyP.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
         niHunP.setPaintFlags(niHunP.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
 
-
+        //Open NIreland BOI Five Page when button is clicked
+        ImageView niBoiFive = findViewById(R.id.NiBoiFive);
+        niBoiFive.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //set animation on click
+                Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.image_animation);
+                v.startAnimation(animation);
+                //open new activity on click (Temp return to home)
+                Intent pageBoiFiver = new Intent(Page_NIreland.this, NIreland_BOI_Five.class);
+                startActivity(pageBoiFiver);
+            }
+        });
 
     }
 }
