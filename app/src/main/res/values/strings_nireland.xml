@@ -3,4 +3,9 @@
     <string name="nIreland">Northern Ireland</string>
     <string name="TitleNIre">Northern Irish Notes</string>
     <string name="WTDNIre">Select the denomination you wish to check</string>
+    <string name="fiveP">£5 / Five Pounds</string>
+    <string name="tenP">£10 / Ten Pounds</string>
+    <string name="twentyP">£20 / Twenty Pounds</string>
+    <string name="fiftyP">£50 / Fifty Pounds</string>
+    <string name="hunP">£100 / Hundred Pounds</string>
 </resources>

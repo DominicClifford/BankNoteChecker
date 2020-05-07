@@ -39,25 +39,108 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="@string/Printing"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/WTDNIre"
                 android:textAlignment="center"
                 android:textColor="@color/textColour"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
-            <ImageView
-                android:id="@+id/engFiftyImage"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:contentDescription="@string/image"
-                android:layout_marginTop="20dp"
+            <TextView
+                android:id="@+id/NiFiveP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="5dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/fiveP"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/dividingLine"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/niBoiFive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:scaleType="fitXY"
                 android:adjustViewBounds="true"
-                android:src="@drawable/printing_2" />
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/ni_boi_five_button"
+                android:contentDescription="@string/image" />
+
+            <TextView
+                android:id="@+id/NiTenP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/tenP"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/dividingLine"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/NiTwentyP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/twentyP"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/dividingLine"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/NiFiftyP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/fiftyP"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/dividingLine"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/NiHunP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/hunP"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/dividingLine"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
 
         </LinearLayout>
 
