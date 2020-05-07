@@ -152,6 +152,19 @@
                 android:textSize="15sp"
                 android:textStyle="bold|italic" />
 
+            <ImageView
+                android:id="@+id/NiBoiFifty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/ni_boi_fifty_button"
+                android:contentDescription="@string/image" />
+
             <TextView
                 android:id="@+id/NiHunP"
                 android:layout_width="wrap_content"
