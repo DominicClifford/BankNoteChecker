@@ -145,6 +145,11 @@
             android:name=".NIreland_BOI_Ten"
             android:label="@string/TitleTen"
             android:parentActivityName=".Page_NIreland"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NIreland_BOI_Twenty"
+            android:label="@string/TitleTwenty"
+            android:parentActivityName=".Page_NIreland"
             android:screenOrientation="portrait"/>
         <activity
             android:name=".Page_Euro"

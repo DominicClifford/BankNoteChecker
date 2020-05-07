@@ -7,25 +7,25 @@ import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-public class NIreland_BOI_Ten extends AppCompatActivity {
+public class NIreland_BOI_Twenty extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.nireland_boi_ten);
+        setContentView(R.layout.nireland_boi_twenty);
 
-        TextView fiverFront = findViewById(R.id.niBoiTenFront);
+        TextView fiverFront = findViewById(R.id.niBoiTwentyFront);
         fiverFront.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ImageView noteImage = findViewById(R.id.niBoiTenImage);
-                noteImage.setImageResource(R.drawable.ni_boi_ten_front);
+                ImageView noteImage = findViewById(R.id.niBoiTwentyImage);
+                noteImage.setImageResource(R.drawable.ni_boi_twenty_front);
 
-                TextView tenBack1 = findViewById(R.id.niBoiTenFront);
-                tenBack1.setTextSize(30);
+                TextView twentyBack1 = findViewById(R.id.niBoiTwentyFront);
+                twentyBack1.setTextSize(30);
 
-                TextView tenFront1 = findViewById(R.id.niBoiTenBack);
-                tenFront1.setTextSize(20);
+                TextView twentyFront1 = findViewById(R.id.niBoiTwentyBack);
+                twentyFront1.setTextSize(20);
 
                 ScrollView frontMain1 = findViewById(R.id.frontMain1);
                 frontMain1.setVisibility(View.VISIBLE);
@@ -35,18 +35,18 @@ public class NIreland_BOI_Ten extends AppCompatActivity {
             }
         });
 
-        TextView fiverBack = findViewById(R.id.niBoiTenBack);
+        TextView fiverBack = findViewById(R.id.niBoiTwentyBack);
         fiverBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ImageView noteImage = findViewById(R.id.niBoiTenImage);
-                noteImage.setImageResource(R.drawable.ni_boi_ten_back);
+                ImageView noteImage = findViewById(R.id.niBoiTwentyImage);
+                noteImage.setImageResource(R.drawable.ni_boi_twenty_back);
 
-                TextView tenBack1 = findViewById(R.id.niBoiTenFront);
-                tenBack1.setTextSize(20);
+                TextView twentyBack1 = findViewById(R.id.niBoiTwentyFront);
+                twentyBack1.setTextSize(20);
 
-                TextView tenFront1 = findViewById(R.id.niBoiTenBack);
-                tenFront1.setTextSize(30);
+                TextView twentyFront1 = findViewById(R.id.niBoiTwentyBack);
+                twentyFront1.setTextSize(30);
 
                 ScrollView frontMain1 = findViewById(R.id.frontMain1);
                 frontMain1.setVisibility(View.INVISIBLE);
