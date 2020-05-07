@@ -14,8 +14,8 @@ public class NIreland_BOI_Ten extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.nireland_boi_ten);
 
-        TextView fiverFront = findViewById(R.id.niBoiTenFront);
-        fiverFront.setOnClickListener(new View.OnClickListener() {
+        TextView tenFront = findViewById(R.id.niBoiTenFront);
+        tenFront.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 ImageView noteImage = findViewById(R.id.niBoiTenImage);
