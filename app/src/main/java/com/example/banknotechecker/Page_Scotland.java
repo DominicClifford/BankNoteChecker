@@ -117,7 +117,7 @@ public class Page_Scotland extends AppCompatActivity {
             }
         });
 
-        //Open Scotland BOS Twenty Page when button is clicked
+        //Open Scotland BOS Twenty Polymer Page when button is clicked
         ImageView sBosTwentyP = findViewById(R.id.sBosTwentyP);
         sBosTwentyP.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -128,6 +128,20 @@ public class Page_Scotland extends AppCompatActivity {
                 //open new activity on click (Temp return to home)
                 Intent pageBosTwentyP = new Intent(Page_Scotland.this, Scotland_BOS_Twenty_P.class);
                 startActivity(pageBosTwentyP);
+            }
+        });
+
+        //Open Scotland CB Twenty Polymer Page when button is clicked
+        ImageView sCbTwentyP = findViewById(R.id.sCbTwentyP);
+        sCbTwentyP.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //set animation on click
+                Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.image_animation);
+                v.startAnimation(animation);
+                //open new activity on click (Temp return to home)
+                Intent pageCbTwentyP = new Intent(Page_Scotland.this, Scotland_CB_Twenty_P.class);
+                startActivity(pageCbTwentyP);
             }
         });
 

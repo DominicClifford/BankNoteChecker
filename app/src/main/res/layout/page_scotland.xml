@@ -195,6 +195,19 @@
                 android:contentDescription="@string/image" />
 
             <ImageView
+                android:id="@+id/sCbTwentyP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/s_cb_twenty_p_button"
+                android:contentDescription="@string/image" />
+
+            <ImageView
                 android:id="@+id/sBosTwenty"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
