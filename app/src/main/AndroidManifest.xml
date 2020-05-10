@@ -95,8 +95,12 @@
             android:name=".Scotland_CB_Twenty_P"
             android:label="@string/TitleTwenty"
             android:parentActivityName=".Page_Scotland"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scotland_RBS_Twenty_P"
+            android:label="@string/TitleTwenty"
+            android:parentActivityName=".Page_Scotland"
             android:screenOrientation="portrait"/>
-
         <activity
             android:name=".Scotland_BOS_Twenty"
             android:label="@string/TitleTwenty"
