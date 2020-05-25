@@ -160,12 +160,17 @@
             android:name=".NIreland_UB_Five"
             android:label="@string/TitleFive"
             android:parentActivityName=".Page_NIreland"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".NIreland_BOI_Ten"
             android:label="@string/TitleTen"
             android:parentActivityName=".Page_NIreland"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".NIreland_UB_Ten"
+            android:label="@string/TitleTen"
+            android:parentActivityName=".Page_NIreland"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".NIreland_BOI_Twenty"
             android:label="@string/TitleTwenty"
