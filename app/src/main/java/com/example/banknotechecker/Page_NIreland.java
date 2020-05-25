@@ -88,6 +88,9 @@ public class Page_NIreland extends AppCompatActivity {
             }
         });
 
+
+        
+
         //Open NIreland DB Ten Page when button is clicked
         ImageView niDbTen = findViewById(R.id.NiDbTen);
         niDbTen.setOnClickListener(new View.OnClickListener() {
