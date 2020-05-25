@@ -155,5 +155,19 @@ public class Page_NIreland extends AppCompatActivity {
                 startActivity(pageBoiHun);
             }
         });
+
+        //Open NIreland UB Hundred Page when button is clicked
+        ImageView niUbHun = findViewById(R.id.NiUbHun);
+        niUbHun.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //set animation on click
+                Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.image_animation);
+                v.startAnimation(animation);
+                //open new activity on click (Temp return to home)
+                Intent pageUbHun = new Intent(Page_NIreland.this, NIreland_UB_Hun.class);
+                startActivity(pageUbHun);
+            }
+        });
     }
 }
