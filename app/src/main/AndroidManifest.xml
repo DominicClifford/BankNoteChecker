@@ -181,12 +181,17 @@
             android:name=".NIreland_UB_Twenty"
             android:label="@string/TitleTwenty"
             android:parentActivityName=".Page_NIreland"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".NIreland_BOI_Fifty"
             android:label="@string/TitleFifty"
             android:parentActivityName=".Page_NIreland"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".NIreland_UB_Fifty"
+            android:label="@string/TitleFifty"
+            android:parentActivityName=".Page_NIreland"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".NIreland_BOI_Hun"
             android:label="@string/TitleHun"
