@@ -11,6 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+
         <activity
             android:name=".Page_Home"
             android:label="@string/app_name"
@@ -170,12 +171,17 @@
             android:name=".NIreland_UB_Ten"
             android:label="@string/TitleTen"
             android:parentActivityName=".Page_NIreland"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".NIreland_BOI_Twenty"
             android:label="@string/TitleTwenty"
             android:parentActivityName=".Page_NIreland"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".NIreland_UB_Twenty"
+            android:label="@string/TitleTwenty"
+            android:parentActivityName=".Page_NIreland"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".NIreland_BOI_Fifty"
             android:label="@string/TitleFifty"
