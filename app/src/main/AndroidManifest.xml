@@ -100,7 +100,7 @@
             android:name=".Scotland_RBS_Twenty_P"
             android:label="@string/TitleTwenty"
             android:parentActivityName=".Page_Scotland"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Scotland_BOS_Twenty"
             android:label="@string/TitleTwenty"
@@ -156,6 +156,11 @@
             android:label="@string/TitleFive"
             android:parentActivityName=".Page_NIreland"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".NIreland_UB_Five"
+            android:label="@string/TitleFive"
+            android:parentActivityName=".Page_NIreland"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".NIreland_BOI_Ten"
             android:label="@string/TitleTen"
