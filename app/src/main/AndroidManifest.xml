@@ -175,7 +175,7 @@
             android:name=".NIreland_DB_Ten"
             android:label="@string/TitleTen"
             android:parentActivityName=".Page_NIreland"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".NIreland_BOI_Twenty"
             android:label="@string/TitleTwenty"
@@ -186,11 +186,6 @@
             android:label="@string/TitleTwenty"
             android:parentActivityName=".Page_NIreland"
             android:screenOrientation="portrait" />
-        <activity
-            android:name=".NIreland_DB_Twenty"
-            android:label="@string/TitleTwenty"
-            android:parentActivityName=".Page_NIreland"
-            android:screenOrientation="portrait"/>
         <activity
             android:name=".NIreland_BOI_Fifty"
             android:label="@string/TitleFifty"

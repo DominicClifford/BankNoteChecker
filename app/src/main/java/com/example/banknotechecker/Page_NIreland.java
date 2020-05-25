@@ -128,20 +128,6 @@ public class Page_NIreland extends AppCompatActivity {
             }
         });
 
-        //Open NIreland UB Twenty Page when button is clicked
-        ImageView niDbTwenty = findViewById(R.id.NiDbTwenty);
-        niDbTwenty.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //set animation on click
-                Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.image_animation);
-                v.startAnimation(animation);
-                //open new activity on click (Temp return to home)
-                Intent pageDbTwenty = new Intent(Page_NIreland.this, NIreland_DB_Twenty.class);
-                startActivity(pageDbTwenty);
-            }
-        });
-
         //Open NIreland BOI Fifty Page when button is clicked
         ImageView niBoiFifty = findViewById(R.id.NiBoiFifty);
         niBoiFifty.setOnClickListener(new View.OnClickListener() {
