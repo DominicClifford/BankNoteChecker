@@ -83,6 +83,8 @@ public class Page_NIreland extends AppCompatActivity {
                 //open new activity on click (Temp return to home)
                 Intent pageUbTen = new Intent(Page_NIreland.this, NIreland_UB_Ten.class);
                 startActivity(pageUbTen);
+
+                
             }
         });
 
