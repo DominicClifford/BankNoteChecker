@@ -12,7 +12,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name="com.netfi.banknotechecker.Page_Home"
+            android:name=".Page_Home"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -22,194 +22,199 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.netfi.banknotechecker.Page_England"
+            android:name=".Page_England"
             android:label="@string/england"
-            android:parentActivityName="com.netfi.banknotechecker.Page_Home"
+            android:parentActivityName=".Page_Home"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.England_Five"
+            android:name=".England_Five"
             android:label="@string/TitleFive"
-            android:parentActivityName="com.netfi.banknotechecker.Page_England"
+            android:parentActivityName=".Page_England"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.England_Ten"
+            android:name=".England_Ten"
             android:label="@string/TitleTen"
-            android:parentActivityName="com.netfi.banknotechecker.Page_England"
+            android:parentActivityName=".Page_England"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.England_Twenty_P"
+            android:name=".England_Twenty_P"
             android:label="@string/TitleTwenty"
-            android:parentActivityName="com.netfi.banknotechecker.Page_England"
+            android:parentActivityName=".Page_England"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.England_Twenty"
+            android:name=".England_Twenty"
             android:label="@string/TitleTwenty"
-            android:parentActivityName="com.netfi.banknotechecker.Page_England"
+            android:parentActivityName=".Page_England"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.England_Fifty"
+            android:name=".England_Fifty"
             android:label="@string/TitleFifty"
-            android:parentActivityName="com.netfi.banknotechecker.Page_England"
+            android:parentActivityName=".Page_England"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.Page_Scotland"
+            android:name=".Page_Scotland"
             android:label="@string/scotland"
-            android:parentActivityName="com.netfi.banknotechecker.Page_Home"
+            android:parentActivityName=".Page_Home"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.Scotland_BOS_Five"
+            android:name=".Scotland_BOS_Five"
             android:label="@string/TitleFive"
-            android:parentActivityName="com.netfi.banknotechecker.Page_Scotland"
+            android:parentActivityName=".Page_Scotland"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.Scotland_CB_Five"
+            android:name=".Scotland_CB_Five"
             android:label="@string/TitleFive"
-            android:parentActivityName="com.netfi.banknotechecker.Page_Scotland"
+            android:parentActivityName=".Page_Scotland"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.Scotland_RBS_Five"
+            android:name=".Scotland_RBS_Five"
             android:label="@string/TitleFive"
-            android:parentActivityName="com.netfi.banknotechecker.Page_Scotland"
+            android:parentActivityName=".Page_Scotland"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.Scotland_BOS_Ten"
+            android:name=".Scotland_BOS_Ten"
             android:label="@string/TitleTen"
-            android:parentActivityName="com.netfi.banknotechecker.Page_Scotland"
+            android:parentActivityName=".Page_Scotland"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.Scotland_RBS_Ten"
+            android:name=".Scotland_RBS_Ten"
             android:label="@string/TitleTen"
-            android:parentActivityName="com.netfi.banknotechecker.Page_Scotland"
+            android:parentActivityName=".Page_Scotland"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.Scotland_CB_Ten"
+            android:name=".Scotland_CB_Ten"
             android:label="@string/TitleTen"
-            android:parentActivityName="com.netfi.banknotechecker.Page_Scotland"
+            android:parentActivityName=".Page_Scotland"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.Scotland_BOS_Twenty_P"
+            android:name=".Scotland_BOS_Twenty_P"
             android:label="@string/TitleTwenty"
-            android:parentActivityName="com.netfi.banknotechecker.Page_Scotland"
+            android:parentActivityName=".Page_Scotland"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.Scotland_CB_Twenty_P"
+            android:name=".Scotland_CB_Twenty_P"
             android:label="@string/TitleTwenty"
-            android:parentActivityName="com.netfi.banknotechecker.Page_Scotland"
+            android:parentActivityName=".Page_Scotland"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.Scotland_RBS_Twenty_P"
+            android:name=".Scotland_RBS_Twenty_P"
             android:label="@string/TitleTwenty"
-            android:parentActivityName="com.netfi.banknotechecker.Page_Scotland"
+            android:parentActivityName=".Page_Scotland"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.Scotland_BOS_Twenty"
+            android:name=".Scotland_BOS_Twenty"
             android:label="@string/TitleTwenty"
-            android:parentActivityName="com.netfi.banknotechecker.Page_Scotland"
+            android:parentActivityName=".Page_Scotland"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.Scotland_CB_Twenty"
+            android:name=".Scotland_CB_Twenty"
             android:label="@string/TitleTwenty"
-            android:parentActivityName="com.netfi.banknotechecker.Page_Scotland"
+            android:parentActivityName=".Page_Scotland"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.Scotland_RBS_Twenty"
+            android:name=".Scotland_RBS_Twenty"
             android:label="@string/TitleTwenty"
-            android:parentActivityName="com.netfi.banknotechecker.Page_Scotland"
+            android:parentActivityName=".Page_Scotland"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.Scotland_BOS_Fifty"
+            android:name=".Scotland_BOS_Fifty"
             android:label="@string/TitleFifty"
-            android:parentActivityName="com.netfi.banknotechecker.Page_Scotland"
+            android:parentActivityName=".Page_Scotland"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.Scotland_CB_Fifty"
+            android:name=".Scotland_CB_Fifty"
             android:label="@string/TitleFifty"
-            android:parentActivityName="com.netfi.banknotechecker.Page_Scotland"
+            android:parentActivityName=".Page_Scotland"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.Scotland_RBS_Fifty"
+            android:name=".Scotland_RBS_Fifty"
             android:label="@string/TitleFifty"
-            android:parentActivityName="com.netfi.banknotechecker.Page_Scotland"
+            android:parentActivityName=".Page_Scotland"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.Scotland_BOS_Hun"
+            android:name=".Scotland_BOS_Hun"
             android:label="@string/TitleHun"
-            android:parentActivityName="com.netfi.banknotechecker.Page_Scotland"
+            android:parentActivityName=".Page_Scotland"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.Scotland_CB_Hun"
+            android:name=".Scotland_CB_Hun"
             android:label="@string/TitleHun"
-            android:parentActivityName="com.netfi.banknotechecker.Page_Scotland"
+            android:parentActivityName=".Page_Scotland"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.Scotland_RBS_Hun"
+            android:name=".Scotland_RBS_Hun"
             android:label="@string/TitleHun"
-            android:parentActivityName="com.netfi.banknotechecker.Page_Scotland"
+            android:parentActivityName=".Page_Scotland"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.Page_NIreland"
+            android:name=".Page_NIreland"
             android:label="@string/nIreland"
-            android:parentActivityName="com.netfi.banknotechecker.Page_Home"
+            android:parentActivityName=".Page_Home"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.NIreland_BOI_Five"
+            android:name=".NIreland_BOI_Five"
             android:label="@string/TitleFive"
-            android:parentActivityName="com.netfi.banknotechecker.Page_NIreland"
+            android:parentActivityName=".Page_NIreland"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.NIreland_UB_Five"
+            android:name=".NIreland_UB_Five"
             android:label="@string/TitleFive"
-            android:parentActivityName="com.netfi.banknotechecker.Page_NIreland"
+            android:parentActivityName=".Page_NIreland"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.NIreland_BOI_Ten"
+            android:name=".NIreland_BOI_Ten"
             android:label="@string/TitleTen"
-            android:parentActivityName="com.netfi.banknotechecker.Page_NIreland"
+            android:parentActivityName=".Page_NIreland"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.NIreland_UB_Ten"
+            android:name=".NIreland_UB_Ten"
             android:label="@string/TitleTen"
-            android:parentActivityName="com.netfi.banknotechecker.Page_NIreland"
+            android:parentActivityName=".Page_NIreland"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.NIreland_DB_Ten"
+            android:name=".NIreland_DB_Ten"
             android:label="@string/TitleTen"
-            android:parentActivityName="com.netfi.banknotechecker.Page_NIreland"
+            android:parentActivityName=".Page_NIreland"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NIreland_BOI_Twenty"
+            android:label="@string/TitleTwenty"
+            android:parentActivityName=".Page_NIreland"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NIreland_UB_Twenty"
+            android:label="@string/TitleTwenty"
+            android:parentActivityName=".Page_NIreland"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NIreland_DB_Twenty"
+            android:label="@string/TitleTwenty"
+            android:parentActivityName=".Page_NIreland"
             android:screenOrientation="portrait"/>
         <activity
-            android:name="com.netfi.banknotechecker.NIreland_BOI_Twenty"
-            android:label="@string/TitleTwenty"
-            android:parentActivityName="com.netfi.banknotechecker.Page_NIreland"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.netfi.banknotechecker.NIreland_UB_Twenty"
-            android:label="@string/TitleTwenty"
-            android:parentActivityName="com.netfi.banknotechecker.Page_NIreland"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.netfi.banknotechecker.NIreland_BOI_Fifty"
+            android:name=".NIreland_BOI_Fifty"
             android:label="@string/TitleFifty"
-            android:parentActivityName="com.netfi.banknotechecker.Page_NIreland"
+            android:parentActivityName=".Page_NIreland"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.NIreland_UB_Fifty"
+            android:name=".NIreland_UB_Fifty"
             android:label="@string/TitleFifty"
-            android:parentActivityName="com.netfi.banknotechecker.Page_NIreland"
+            android:parentActivityName=".Page_NIreland"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.NIreland_BOI_Hun"
+            android:name=".NIreland_BOI_Hun"
             android:label="@string/TitleHun"
-            android:parentActivityName="com.netfi.banknotechecker.Page_NIreland"
+            android:parentActivityName=".Page_NIreland"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.NIreland_UB_Hun"
+            android:name=".NIreland_UB_Hun"
             android:label="@string/TitleHun"
-            android:parentActivityName="com.netfi.banknotechecker.Page_NIreland"
+            android:parentActivityName=".Page_NIreland"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netfi.banknotechecker.Page_Euro"
+            android:name=".Page_Euro"
             android:label="@string/Euro"
-            android:parentActivityName="com.netfi.banknotechecker.Page_Home"
+            android:parentActivityName=".Page_Home"
             android:screenOrientation="portrait" />
     </application>
 
