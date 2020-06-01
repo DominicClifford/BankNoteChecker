@@ -211,11 +211,6 @@
             android:label="@string/TitleHun"
             android:parentActivityName=".Page_NIreland"
             android:screenOrientation="portrait" />
-        <activity
-            android:name=".Page_Euro"
-            android:label="@string/Euro"
-            android:parentActivityName=".Page_Home"
-            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
