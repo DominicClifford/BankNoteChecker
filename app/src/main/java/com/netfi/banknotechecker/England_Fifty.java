@@ -7,6 +7,7 @@ import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
+
 public class England_Fifty extends AppCompatActivity {
 
     @Override
@@ -55,5 +56,50 @@ public class England_Fifty extends AppCompatActivity {
                 frontMain2.setVisibility(View.VISIBLE);
             }
         });
+
+        /*
+        ImageView frontOn = findViewById(R.id.front);
+        frontOn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ImageView frontOn1 = findViewById(R.id.front);
+                frontOn1.setImageResource(R.drawable.front_on);
+
+                ImageView backOff1 = findViewById(R.id.back);
+                backOff1.setImageResource(R.drawable.back_off);
+
+                ImageView noteImage = findViewById(R.id.engFiftyImage);
+                noteImage.setImageResource(R.drawable.e_fifty_front_v3);
+
+                ScrollView frontOnMain1 = findViewById(R.id.frontMain1);
+                frontOnMain1.setVisibility(View.VISIBLE);
+
+                ScrollView frontOnMain2 = findViewById(R.id.frontMain2);
+                frontOnMain2.setVisibility(View.INVISIBLE);
+            }
+        });
+
+        ImageView backOn = findViewById(R.id.back);
+        backOn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ImageView frontOn = findViewById(R.id.front);
+                frontOn.setImageResource(R.drawable.front_off);
+
+                ImageView backOff = findViewById(R.id.back);
+                backOff.setImageResource(R.drawable.back_on);
+
+                ImageView noteImage = findViewById(R.id.engFiftyImage);
+                noteImage.setImageResource(R.drawable.e_fifty_front_v3);
+
+                ScrollView frontOnMain1 = findViewById(R.id.frontMain1);
+                frontOnMain1.setVisibility(View.VISIBLE);
+
+                ScrollView frontOnMain2 = findViewById(R.id.frontMain2);
+                frontOnMain2.setVisibility(View.INVISIBLE);
+            }
+        });
+        */
+
     }
 }

@@ -21,6 +21,36 @@
             android:layout_gravity="center"
             android:orientation="horizontal">
 
+            <!--
+            <ImageView
+                android:id="@+id/front"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/image"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/front_on" />
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/image"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/back_off" />
+                -->
+
             <TextView
                 android:id="@+id/FiftyFront"
                 android:layout_width="wrap_content"
